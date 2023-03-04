@@ -52,7 +52,7 @@ li {
 }
 
 .quiz__block {
-    width: 600px;
+    max-width: 500px;
 
 }
 
@@ -79,14 +79,14 @@ li {
 
 .quiz__options {
     position: relative;
-    right: 20px;
+    right: 30px;
 }
 
 .quiz__option {
-    margin: 10px -16px;
+    margin: 10px 0px;
     border: 1px solid #afb9d666;
     border-radius: 12px;
-    padding: 5px;
+    padding: 10px;
     color: #fff;
     overflow: auto;
 }
