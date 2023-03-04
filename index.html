@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="Quiz" id="quiz">
+        <div id="sequence" class="quiz__block">
+            <div class="quiz__counter-wrap">
+                <div id="question" class="quiz__question">
+                    <span></span>
+                </div>
+                <div id="answers" class="quiz__options">
+                    <ul>
+                        <li>
+
+                            <div class="quiz__option">
+                                <input type="radio" name="answer" id="a" class=" answers">
+                                <label for="a" id="a_text"></label>
+                            </div>
+                        </li>
+                        <li>
+
+                            <div class="quiz__option">
+                                <input type="radio" name="answer" id="b" class=" answers">
+                                <label for="b" id="b_text"></label>
+                            </div>
+                        </li>
+                        <li>
+
+                            <div class="quiz__option">
+                                <input type="radio" name="answer" id="c" class=" answers">
+                                <label for="c" id="c_text"></label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="quiz__next-button">
+                    <button id="next" class="quiz__Next">Следующий вопрос</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
