@@ -10,6 +10,7 @@ body {
     text-rendering: optimizeSpeed;
     margin: 0;
     padding: 0;
+    overflow: hiden;
     background:
         /* радиальные градиенты в правом верхнем и левом нижнем углах */
         radial-gradient(var(--_g) 100% 25%, var(--_c)) var(--s) var(--s)/var(--_s),
