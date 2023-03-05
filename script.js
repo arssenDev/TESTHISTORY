@@ -56,7 +56,7 @@ next.addEventListener('click', () => {
       }
       else {
         quiz.innerHTML = `<div class="quiz__result">
-          <h2 style="color: #ffffff; font-size: 28px;text-align: center; margin-bottom: 20px;">Вы ответили правильно на ${score}/${quizData.length} вопросов</h2> 
+          <h2 style="color: #ffffff; font-size: 28px;text-align: center; margin-bottom: 20px;">Вы ответили правильно на ${score} из ${quizData.length} вопросов</h2> 
           <button onclick="location.reload()" style="background-color: #007bff; position:relative; left:100px; color: #fff; font-size: 16px; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Вернуться</button>
         </div>`;
       }
