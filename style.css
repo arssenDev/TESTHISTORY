@@ -112,8 +112,8 @@ h2 {
 .quiz__option input[type="radio"]+label::before {
     content: "";
     display: inline-block;
-    width: 1.2em;
-    height: 1.2em;
+    width: 0.8em;
+    height: 0.8em;
     border: 1px solid #ccc;
     margin-right: 0.5em;
     border-radius: 0;
