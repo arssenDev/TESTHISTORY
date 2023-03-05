@@ -152,6 +152,6 @@ h2 {
 
 @media screen and (max-width:768px) {
     .quiz__counter-wrap {
-        max-width: 330px;
+        max-width: 400px;
     }
 }
